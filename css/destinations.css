@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+/*body {
+    margin: 0 2rem;
+}*/
+
+.nav-bar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-bar__anchor {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-bar__logo {
+    font-weight: 700;
+    font-size: 32px;
+    color: #2d3982;
+}
+
+.nav-bar__item {
+    font-weight: 550;
+    display: inline;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+.nav-bar__item--active {
+    border-bottom: solid 3px #e37889;
+}
+
+.nav-bar__item:hover {
+    border-bottom: solid 3px #101d42;
+    transition: 0.2s;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.header {
+    width: 100%;
+    height: 1920px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.hawaii-header {
+    background-image: url('/assets/submission-2-assets-mockups/submission-2-assets-mockups/assets/hawaii.jpg');
+}
+
+.iceland-header {
+    background-image: url('/assets/submission-2-assets-mockups/submission-2-assets-mockups/assets/iceland.jpg');
+}
+
+.greece-header {
+    background-image: url('/assets/submission-2-assets-mockups/submission-2-assets-mockups/assets/greece.jpg');
+}
+  
+.title {
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.date {
+    border-bottom: solid 2px;
+}
+
+.activity-list {
+    list-style: none;
+}
+
+.activity {
+    padding: 1.2rem;
+    background-color: #f0f0f0;
+    margin: 1.2rem;
+    text-decoration: none;
+}
