@@ -1,5 +1,5 @@
 # Basic travel-site (not mobile responsive)
 
-website url: khiz-travel.netlify.app
+website url: https://khiz-travel.netlify.app
 
 ![Website example](/travel-site.gif)
